@@ -3,7 +3,7 @@
 #--------------------------------------------------------
 
 express     = require 'express'
-poet        = require 'poet'
+poet        = require './poet'
 markdown    = require("node-markdown").Markdown
 fs          = require 'fs'
 path        = require 'path'
