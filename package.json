@@ -1,0 +1,19 @@
+{
+  "name": "express-test",
+  "version": "0.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matt Fordham",
+  "license": "ISC",
+  "devDependencies": {
+    "coffee-script": "^1.8.0",
+    "express": "^4.8.7",
+    "front-matter": "^0.2.0",
+    "jade": "^1.6.0",
+    "node-markdown": "^0.1.1",
+    "poet": "^1.0.2"
+  }
+}

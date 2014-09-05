@@ -1,0 +1,23 @@
+---
+title: Express Example
+description: Nothing to see here
+---
+
+extends /layouts/layout
+
+block content
+  h1 Homepage
+  p.
+    This page is using yaml "frontmatter" to define some variables:
+  ul
+    li Title: #{meta.title}
+    li Description: #{meta.description}
+  p.
+    More examples: 
+  ul
+    li
+      a(href="/another-page") Another Page
+    li 
+      a(href="/blog") Blog Example
+    li 
+      a(href="/markdown") Markdown Example

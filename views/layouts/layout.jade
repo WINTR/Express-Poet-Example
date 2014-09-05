@@ -1,0 +1,14 @@
+doctype html
+html
+  head
+    if meta
+      title #{meta.title} 
+    else
+      title Default Title
+    meta(charset='utf-8')
+    link(rel='stylesheet', href='/css/bootstrap.css')
+  body
+    .container
+      br
+      a(href="/") Home
+      block content
